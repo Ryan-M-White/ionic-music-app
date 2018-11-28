@@ -1,0 +1,27 @@
+<ion-header>
+	<ion-toolbar>
+		<ion-title>
+			Music
+		</ion-title>
+	</ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+	<ion-row>
+		<ion-col>
+			<ion-button color="danger" shape="round" (click)="stopSong()">
+				<ion-icon name="square"></ion-icon>
+			</ion-button>
+		</ion-col>
+		<ion-col>
+			<ion-button color="Success" shape="round" (click)="playSong()">
+				<ion-icon name="play"></ion-icon>
+			</ion-button>
+		</ion-col>
+		<ion-col>
+			<ion-button color="Tertiary" shape="round" (click)="pauseSong()">
+				<ion-icon name="pause"></ion-icon>
+			</ion-button>
+		</ion-col>
+	</ion-row>
+</ion-content>
